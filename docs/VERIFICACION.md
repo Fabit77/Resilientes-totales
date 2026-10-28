@@ -25,7 +25,18 @@ Fecha: 28 de octubre de 2026.
 
 Proyecto Vercel `prj_TK9xlRqJQm4x2bK6XZfx2VKuzOjO`, equipo `fabits-projects`, conectado a `Fabit77/Resilientes-totales`, producción desde `main`.
 
-La URL asignada al proyecto es `https://resilientes-totales.vercel.app`. La validación de despliegue y commit final se incorporará una vez termine el build remoto.
+URL pública comprobada: https://resilientes-totales.vercel.app.
+
+- Pull Request #1 integrado: https://github.com/Fabit77/Resilientes-totales/pull/1.
+- Commit de implementación en main: `518dc124ddb86d1bf53e4580a972e737c6e9f177`.
+- Despliegue de producción: `dpl_BHVNHpuysVHTFkd6fQ7quricDwD2`, estado **READY**, origen Git.
+- El alias público fue asignado sin errores. Los logs del build confirman `Deployment completed`.
+- `CHECK_URL=https://resilientes-totales.vercel.app node scripts/check-http.mjs`: correcto en las 12 páginas; SEO, sitemap, robots, imagen social, 404 y errores de contacto verificados públicamente.
+- Sitio abierto en navegador y título, contenido y navegación visibles en producción.
+- Consulta de runtime logs de errores/fatales tras la prueba: sin registros en la ventana consultada. Esto no constituye una garantía de ausencia de errores futuros.
+- La integración Git generó un preview para la rama y un despliegue de producción al integrar el PR en main. Los siguientes cambios en main utilizan la misma integración.
+- Variables públicas configuradas en Production y Preview: origen canónico real y analítica desactivada.
+- La activación de Web Analytics requiere el panel web: el navegador disponible no tiene sesión de Vercel. La publicación fue realizada mediante el conector autorizado y no dependió de esa sesión.
 
 ## Pendientes reales
 
